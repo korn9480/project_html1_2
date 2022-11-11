@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/addFood/append_Main.css">
+    <link rel="stylesheet" media="screen and (min-width: 501px)" href="../assets/css/addFood/append.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="../assets/css/addFood/append_phone.css">
+    <!--ใช้ css ของ หน้าเเสดงเมนู เพราะ ต้องใช้ตอนเเสดงตัวอย่าง -->
+    <link rel="stylesheet" media="screen and (min-width: 501px" href="../assets/css/showManuFood/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width : 500px)" href="../assets/css/showManuFood/phone.css">
+    <script src="../assets/script/showFood.js"></script>
+</head>
+<body>
+    <form id="form_data">
+        <fieldset class="size">
+            <legend id="head">ข้อมูลอาหารที่เพิ่ม</legend>
+            <div class="textInput">
+                <br><b>ชื่ออาหาร</b><br>
+                <input type="text" id="nameF" class="input" required placeholder="ชื่ออาหาร" autofocus autocomplete="off"><br>
+                <b>ประเภทอาหาร</b><br>                
+                <select id="type_food" class="input">
+                    <option>อาหารเช้า</option>
+                    <option>อาหารเที่ยง</option>
+                    <option>อาหารเย็น</option>
+                </select><br>
+                <b>ราคา</b><br>
+                <input type="number" id="price" class="input" required placeholder="ราคา" autocomplete="off"><br>
+                <b>ประมาณแคลเลอรี่</b><br>
+                <input type="number" id="calorie" class="input" required placeholder="ประมาณแคลเลอรี่" autocomplete="off"><br>
+                <b>รายละเอียด</b><br>
+                <textarea required rows="3" cols="20" id="details" class="input" placeholder="รายละเอียด" autocomplete="off"></textarea><br>
+            </div>
+        </fieldset>
+        <fieldset id="borderInputImg">
+            <div class="textInput">
+                <b id="descriptionInputImg">สามารถใส่รูปได้เเบบลิ้งหรือเเบบไฟล์ก็ได้</b><br>
+                <input type="url" placeholder="ลิ้งค์รูปภาพ" id="linkImg" class="input" autocomplete="off"><br>
+                <div id="file-sava">
+                    <input type="file" id="photo" accept="imge/png, imge/jpg">
+                    <input type="button" value="บันทึก" id="save" onclick="showExampleFood()">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <div id="ex">ตัวอย่างตอนอยู่ในเว็บ</div>
+    <!-- ต่อสินค้า -->
+    <div id="to"></div>
+
+    <a id="out" href="home.html">ออกระบบ</a>
+    <!--วงกลมสีเเดง-->
+    <div id="circleTop"></div>
+    <div id="circleBottom"></div>
+
+</body>
+
+</html>

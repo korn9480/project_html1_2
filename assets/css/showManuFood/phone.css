@@ -1,0 +1,53 @@
+.product{
+    background-color: rgba(196, 196, 196, 0.5);
+    /* opacity: 0.5; */
+    width: 90%;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.nextToPage{
+    position: relative;
+    top: 30px;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 21px;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#main{
+    width: 80%;
+    padding-left: 20%;
+    padding-bottom: 50px;
+    text-align: left;
+    
+}
+.img{
+    position: relative;
+    left:5%;      
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.text{
+    position: relative;
+    left: 5%;
+    top:5%;
+    width: 90%;
+}
+
+.nameFood{
+    margin-top: 5%;
+    color: rgba(228, 0, 43, 1);
+}
+.price{
+    color: rgba(228, 0, 43, 1);
+}
+.details{
+    /* color: white; */
+    margin-top: 5%;
+}
+.textHead{
+    color: black;
+}

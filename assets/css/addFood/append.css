@@ -1,0 +1,61 @@
+form{
+    position:fixed;
+    left: 12%;
+    position: absolute;
+    top: 15%;
+}
+/* ขนาด กรอบ สีดำ*/
+.size{
+    width: 500px;
+    height: 350px;
+}
+/* หัวข้อ สีขาว เพิ่มขนาด*/
+#head{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ตัวอย่าง สีขาว มุมขวา  */
+#ex{
+    font-size: 30px;
+    color: white;
+    /* ระบบตัวแหน่งเลย */
+    position: relative;
+    left: 60%;
+    top: 100px;
+}
+/*ต่อ*/
+#to{
+    /* ระบบตัวแหน่งเลย */
+    position: relative;
+    left: 50%;
+    top: 120px;
+}
+/* ปุ่มแเดง */
+#out{
+    position: fixed;
+    right: 5%;
+    top:30px;
+    text-decoration: none;
+}
+.textInput{
+    position: relative;
+    left:35%;
+}
+#descriptionInputImg{
+    position: relative;
+    left: -50px;
+}
+
+/*วงกลมสีเเดง*/
+#circleTop{
+    width: 500px;
+    height: 500px;
+}
+#circleBottom{
+    width: 700px;
+    height: 700px;
+    position: fixed;
+    right: -250px;
+    bottom: -250px;
+}

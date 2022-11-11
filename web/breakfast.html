@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>dinner</title>
+        <script src="../assets/script/showFood.js"></script>    
+        <link rel="stylesheet" href="../assets/css/showManuFood/Main.css">
+        <link rel="stylesheet" media="screen and (min-width: 501px" href="../assets/css/showManuFood/desktop.css">
+        <link rel="stylesheet" media="screen and (max-width : 500px)" href="../assets/css/showManuFood/phone.css">
+    </head>
+    <body onload="showFood('breakfast')">
+        <div class="container">
+            <div id="main">
+                <input type="search" id="searchMenu" placeholder="ค้นหาอาหาร" onclick="enterSearchFood('breakfast')">
+                <a class="nextToPage" id="choosePage" href="breakfast.html">อาหารเช้า</a>
+                <a class="nextToPage" href="lunch.html">อาหารเที่ยง</a>
+                <a class="nextToPage" href="dinner.html">อาหารเย็น</a>
+                <a id="nextHome" class="nextToPage" href="home.html">ออกระบบ</a>
+            </div>
+            <div id="food_items" >
+            </div>
+     
+        </div>
+    </body>
+</html>

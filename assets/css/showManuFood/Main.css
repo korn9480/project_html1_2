@@ -1,0 +1,43 @@
+/* เเถบเมนู*/
+#main{
+    background-color: rgba(228, 0, 43, 1);
+    position: relative;
+    top: -8px;
+    left: -8px;
+    width: 98.25%;
+
+    text-align: center;
+    padding: 20px;
+}
+
+#choosePage {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: red;
+    background-color: white;
+    padding-bottom: 21px;
+}
+#searchMenu{
+    position: absolute;
+    top:20px;
+    left: 7.5%;
+}
+#nextHome{
+    position: absolute;
+    top:5px;
+    right: 7%;
+}
+body{
+    background-image: url("../../img/home/p1.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.product:hover{
+    border: 2px solid rgba(228, 0, 43, 1);
+}
+a:hover{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(155, 155, 155,0.5);
+}

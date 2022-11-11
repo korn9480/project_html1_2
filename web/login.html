@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in</title>
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="../assets/css/login/phone_login.css">
+    <link rel="stylesheet" media="screen and (min-width: 501px" href="../assets/css/login/desktop_login.css">
+    <script src="../assets/script/login.js"></script>
+</head>
+<body>
+    <form id="form" class="main" method="post" action="addFood.html" onsubmit="return cheak()" >
+        <div class="details"> 
+            <b>Log-in</b> <br><br><br>
+            <input type="text" id="user" class="U1" placeholder="ชื่อผู้ใช้" required autofocus autocomplete="off"><br><br>
+            <input type="password" id="password" class="U1" placeholder="รหัสผ่าน" required><br><br>
+            <input type="submit" class="button" id="button"  value="ยืนยัน" ><br>
+        </div>
+    </form>
+    <p id='Cheak' class="details_3">รหัสผ่านไม่ถูกต้อง</p>
+</body>
+</html>

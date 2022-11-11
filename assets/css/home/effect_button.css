@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+}
+a{
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    background-color: rgba(228, 0, 43, 1);
+    color: #fff;
+
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+a::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgb(224, 64, 93);
+    transition: width 0.5s,height 0.5s;
+    overflow: hidden;
+}
+a span{
+    position: relative;
+    z-index: 1;
+}
+a:hover::before{
+    width: 400px;
+    height: 400px;
+    
+}
